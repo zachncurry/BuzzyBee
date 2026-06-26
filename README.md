@@ -18,3 +18,6 @@
       - The Transport: The Wazuh agent captures these local JSON logs and streams them to the Central Wazuh Manager
       - The Trigger & Orchestration: Wazuh detects a high severity incident and drops an alert event. OpenSecOps ingest the finding via a GSN3 bridge via AWS API Gateway/SQS Queue
       - The Action (Sigma Generation): OpenSecOps triggers a pipeline (like a serverless script) to extract the attacker's specific TTPs from the log and auto-generates a structured Sigma rule, ready for defense   
+
+
+https://sigmahq.io/docs/basics/rules.html
